@@ -1,0 +1,69 @@
+h1, h2 {
+    color: white;
+}
+img{
+    border: 1px solid white;
+    border-radius: 50%;
+}
+body{
+    background-color: #16181C;
+    color: white;
+}
+.dim {
+    color: #90969b;
+    border: 1px solid white;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px; /* Adjust this to your desired table width */
+    margin: 0 auto; /* Center the table */
+    font-family: Arial, sans-serif;
+    background-color: #16181C; /* Background color for the table */
+    color: #FFFFFF; /* Text color for the table */
+}
+
+.styled-table th {
+    background-color: #000; /* Background color for table header cells */
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.styled-table td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.styled-table tr:nth-child(even) {
+    background-color: #000; /* Background color for even rows */
+}
+
+.styled-table tr:hover {
+    background-color: #333; /* Background color on hover */
+}
+
+.bio {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+    padding: 20px; /* Add padding for spacing */
+    list-style-type: none; /* Remove default list bullet points */
+}
+
+.bio li {
+    margin-bottom: 10px; /* Add margin between list items */
+    transition: background-color 0.2s; /* Smooth transition for background color */
+}
+
+.bio li:hover {
+    background-color: #555; /* Darker background color on hover */
+}
