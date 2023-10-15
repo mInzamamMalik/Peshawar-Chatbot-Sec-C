@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 </head>
 
@@ -11,15 +11,14 @@
     <h1>es6 input output</h1>
 
     <form onsubmit="doSum(event)">
-        first number: <input type="number" id="firstNumber" required>
-        <br>
-        second number: <input type="number" id="secondNumber" required>
-        <br>
+        first number: <input type="number" id="firstNumber" required />
+        <br />
+        second number: <input type="number" id="secondNumber" required />
+        <br />
         <button type="submit">Sum</button>
     </form>
 
-    <h1 id="resultBox"> </h1>
-
+    <h1 id="resultBox"></h1>
 
     <script>
         function doSum(event) {
@@ -27,7 +26,7 @@
             console.log("button clicked");
             event.preventDefault();
 
-            let firstNumber = document.querySelector("#firstNumber").value
+            let firstNumber = document.querySelector("#firstNumber").value;
             let secondNumber = document.querySelector("#secondNumber").value
 
             console.log(firstNumber)
@@ -37,16 +36,10 @@
 
             console.log(result);
 
-            let message = `the sum of ${firstNumber} and ${secondNumber} is ${result}`
-
+            let message = `the sum of ${firstNumber} and ${secondNumber} is ${result}`;
             document.querySelector("#resultBox").innerHTML = message
         }
-
     </script>
-
-
-
-
 </body>
 
 </html>
