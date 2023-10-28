@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>es6 array and object cloning</h1>
+
+    <script>
+
+        // let myNumbers = [11, 22, 33];
+        // let myNumbersCopy = myNumbers; // copy by reference, shallow copy
+
+        // let myNumbersClone = [...myNumbers];
+       
+        // console.log(myNumbers);
+        // console.log(myNumbersCopy);
+        // console.log(myNumbersClone);
+        
+        // myNumbersCopy[0] = "Malik";
+        // myNumbers[2] = "Inzamam";
+        
+        // console.log(myNumbers);
+        // console.log(myNumbersCopy);
+        // console.log(myNumbersClone);
+
+
+        let student1 = {
+            "lastName": "Malik",
+            "firstName": "Inzamam",
+        }
+        let student1copy = student1; // copy by reference, shallow copy
+        let student1clone = {...student1}; // cloning
+
+        console.log(student1);
+        console.log(student1copy);
+        console.log(student1clone);
+        
+        student1copy["firstName"] = "Muhammad"
+        
+        console.log(student1);
+        console.log(student1copy);
+        console.log(student1clone);
+
+
+
+
+
+
+        // let myNum = 5;
+        // let myNumCopy = myNum; // copy by value, deep copy
+
+        // console.log(myNum);
+        // console.log(myNumCopy);
+        
+        // myNumCopy = 11;
+        
+        // console.log(myNum);
+        // console.log(myNumCopy);
+
+
+        
+
+
+    </script>
+</body>
+
+</html>
